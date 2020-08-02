@@ -1,0 +1,137 @@
+body{
+   background-color: #f2f2f2; 
+   font-weight: 300;
+   font-size: 16px;
+   color: #555;
+
+   -webkit-font-smoothing: antialiased;
+   -webkit-overflow-scrolling: touch;
+
+   margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "";
+    font-weight: 300;
+    color: #333;
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+
+a{
+    color: #f85c37;
+}
+
+a:hower, a:focus{
+    color:#7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1 px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar{
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse{
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+    background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.head-slick img{
+    margin: 50px auto;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+
+.slick-list{
+    overflow: hidden;
+}
+
+.head-slick .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    min-width: 70px;
+    min-height: 500px;
+}
+
+.head-slick .slick-arrow.slick-next{
+    right: 0;
+}
+
+.head-slick .slick-arrow.slick-prev{
+    left: 0;
+}
+.head-slick .head-slick-item img{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.head-slick-item-about{
+    margin: 0px auto;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.head-slick .head-slick-item h3{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.footer-row{
+    background-color: #333;
+    color: whitesmoke;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+}
+.footer-row h2{
+    color: whitesmoke;
+}
+.subscribe .fa{
+    margin: 8px;
+    color: whitesmoke;
+}
+.map{
+    max-width: 300px;
+}
